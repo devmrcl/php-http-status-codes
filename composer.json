@@ -1,0 +1,33 @@
+{
+  "name": "mrcl/http-status-codes",
+  "description": "HTTP Status Codes library",
+  "keywords": [
+    "http status",
+    "http status code",
+    "response code"
+  ],
+  "type": "library",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Marcel Hopf",
+      "homepage": "https://github.com/devmrcl"
+    }
+  ],
+  "require": {
+    "php": ">=7.4"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^9.5"
+  },
+  "autoload": {
+    "psr-4": {
+      "Mrcl\\Utils\\InternetStandards\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Mrcl\\Tests\\Utils\\InternetStandards\\": "tests/"
+    }
+  }
+}
